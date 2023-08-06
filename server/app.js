@@ -6,7 +6,7 @@ var jsonParser = bodyParser.json();
 const bcrypt = require("bcrypt");
 const saltRounds = 10;
 var jwt = require("jsonwebtoken");
-const secret = "Fullstack-login-2021";
+const secret = "Fullstack-login-2023";
 
 app.use(cors());
 
